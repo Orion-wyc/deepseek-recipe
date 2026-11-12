@@ -105,6 +105,7 @@ Rust 和 Python 均支持将模型输出转换为流式响应，见[流式响应
 | [`deepseek-recipe-image`](https://docs.rs/deepseek-recipe-image) | 图片拉取与预处理。 |
 | [`deepseek-recipe-macros`](https://docs.rs/deepseek-recipe-macros) | prompt 渲染使用的 `prompt!` 宏。 |
 | [`deepseek-recipe-python`](deepseek-recipe-python/README.md) | Python bindings，以 `deepseek_recipe` 导入。 |
+| [examples/protocol-conversion](examples/protocol-conversion/README.md) | 可运行的命令行示例，把同一对话从三种协议转换为 prompt。 |
 | [encoding-decoding-demo](encoding-decoding-demo/README.md) | 渲染 prompt、高亮 special token，并将完整模型输出解析为 Chat Completions、Responses 或 Messages 响应的 Web 界面。 |
 | [server-rs](server-rs/README.md) | 使用 mock 推理的 Axum API 示例。 |
 | [server-py](server-py/README.md) | 使用 mock 推理的 FastAPI 示例。 |

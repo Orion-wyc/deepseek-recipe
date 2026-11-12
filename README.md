@@ -151,6 +151,7 @@ token IDs or decode backend token IDs, see
 | [`deepseek-recipe-image`](https://docs.rs/deepseek-recipe-image) | Image fetching and preprocessing. |
 | [`deepseek-recipe-macros`](https://docs.rs/deepseek-recipe-macros) | The `prompt!` macro used by prompt rendering. |
 | [`deepseek-recipe-python`](deepseek-recipe-python/README.md) | Python bindings, imported as `deepseek_recipe`. |
+| [examples/protocol-conversion](examples/protocol-conversion/README.md) | A runnable CLI that converts the same conversation from the three protocols into a prompt. |
 | [encoding-decoding-demo](encoding-decoding-demo/README.md) | A web interface that renders prompts, highlights special tokens, and parses complete model output into Chat Completions, Responses, or Messages responses. |
 | [server-rs](server-rs/README.md) | An Axum API example with mock inference. |
 | [server-py](server-py/README.md) | A FastAPI example with mock inference. |

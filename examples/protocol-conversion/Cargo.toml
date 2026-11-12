@@ -1,0 +1,16 @@
+[package]
+name = "protocol-conversion-example"
+version = "0.1.0"
+edition = "2024"
+description = "Convert Chat Completions, Responses, and Messages requests into DeepSeek prompts."
+publish = false
+
+# Keep this example independent from the repository workspace: it resolves the
+# published crates and can be copied to another directory as-is.
+[workspace]
+
+[dependencies]
+deepseek-recipe = "0.2"
+deepseek-recipe-encoding = "0.2"
+serde = "1"
+serde_json = "1"
